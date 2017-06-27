@@ -3,6 +3,8 @@ import { reduxForm } from 'redux-form';
 import { createPost } from '../actions/index';
 import { Link } from 'react-router';
 
+//this version of router is deprecated - no longer works in the way intended. looking for replacement 
+
 class PostsNew extends Component {
   static contextTypes = {
     router: PropTypes.object
